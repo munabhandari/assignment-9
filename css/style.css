@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: url(../images/body-bg4.png);
+}
 .w-100{
     width: 100%;
 }
@@ -22,4 +24,35 @@ nav a{
 }
 nav ul{
     background-color: #32549a;
+}
+
+.link {
+    text-align: center;
+    border-bottom: 3px solid #003399;
+}
+
+.link a{
+    color: #e83636;
+    font-size: 50px;
+    padding: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+h3{
+    font-size: 40px;
+}
+article{
+    text-align: center;
+}
+article p{
+    line-height: 30px;
+}
+article.main {
+    border: 2px solid #ff0000;
+}
+h3 a{
+    color: #32549a;
+    display: inline-block;
+    padding: 20px 0;
+    text-decoration: none;
 }

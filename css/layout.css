@@ -56,13 +56,16 @@
 }
 
 [class*="col-"] {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     overflow: auto;
 }
 
 .container{
     width: 97%;
     margin: auto;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 3px #cacaca;
 }
 
 
