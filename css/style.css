@@ -3,21 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     background-image: url(../images/body-bg4.png);
 }
 .w-100{
     width: 100%;
 }
+.p-l-3{
+    padding-left: 20px;
+}
 
+.p-t-3{
+    padding-top: 20px;
+}
 
+.p-r-3{
+    padding-right: 20px;
+}
 nav li {
     display: inline;
     list-style: none;
 
 }
 nav a{
-    text-decoration: none;
+    
     padding: 5px 10px;
     color: white;
     display: inline-block;
@@ -36,7 +48,7 @@ nav ul{
     font-size: 50px;
     padding: 20px 0;
     display: inline-block;
-    text-decoration: none;
+    
 }
 h3{
     font-size: 40px;
@@ -54,5 +66,65 @@ h3 a{
     color: #32549a;
     display: inline-block;
     padding: 20px 0;
-    text-decoration: none;
+    
+}
+
+.sec-heading{
+    background-color: #cccccc;
+    padding: 8px;
+    margin: 15px 0px;
+    font-size: 24px;
+    color: #32549a;
+}
+article.sub h4 a{
+    color: rgb(50, 84, 154);
+    
+}
+
+article.sub{
+text-align: left;
+}
+article.sub img{padding-right: 15px;}
+article.sub h4{
+    font-size: 21px;
+    margin: 10px 0;
+}
+.bg-box{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.bg-box a{
+    font-size: 21px;
+    color: rgb(50, 84, 154);
+    display: block;
+    margin: 20px 0;
+}
+.bg-imp{
+       background-color:  #cccccc;
+       padding: 10px;
+}
+.bg-imp a{
+    color:#32549a ;
+}
+.bank-img{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    grid-gap: 30px;
+    padding: 10px 0;
+}
+
+.bg-footer{
+    background-color: rgb(51, 81, 143);
+    
+}
+.footer1 a{
+    color: #fff;
+    padding-left: 5px;
+    border-right: 1px solid #fff;
+
+}
+.footer2 p{
+    color: #cccccc;
+    font-weight: bold;
 }
