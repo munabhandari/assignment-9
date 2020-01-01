@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-100{
+    width: 100%;
+}
+
+
+nav li {
+    display: inline;
+    list-style: none;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+}
+nav ul{
+    background-color: #32549a;
+}
