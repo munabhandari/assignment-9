@@ -1,6 +1,7 @@
 
 .row {
     display: flex;
+    grid-column-gap: 20px;
 }
 
 .col-1 {
